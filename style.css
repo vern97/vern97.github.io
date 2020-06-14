@@ -1,0 +1,162 @@
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: #222 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.fa {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: #007bb5;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5;
+    opacity: 75%;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-github:hover {
+    color: black;
+    opacity: 75%;
+}
+
+#name-head {
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-banner {
+    background-color: #222629;
+    color: white;
+}
+
+#about {
+    background-color: #0679CC;
+    color: white;
+}
+
+#about p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    padding: 20px;
+}
+
+#console-container {
+    margin-top: 150px;
+    border-radius: 5px;
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    background: #ccc;
+    height: 500px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#console-content {
+    background-color: #383737;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+}
+
+#console-text {
+    color: #cccc;
+}
+
+#console-text a {
+    text-decoration: none;
+}
+
+#resume {
+    background-color: #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#resume img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+#resume ul {
+    list-style: circle;
+}
+
+#resume li {
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+}
+
+#projects {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-project {
+    width: 50rem;
+}
+
+#secondary-project {
+    width: 25rem;
+    margin: 15px;
+}
+
+#project-image {
+    height: 35rem;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    padding: 20px;
+}
+
+.section-header {
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.section-detail {
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.section-content {
+    font-family: 'Karla', sans-serif;
+    font-size: 19px;
+}
